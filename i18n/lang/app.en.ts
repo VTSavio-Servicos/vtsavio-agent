@@ -1,35 +1,30 @@
 const translation = {
   common: {
-    welcome: 'Welcome to use',
-    appUnavailable: 'App is unavailable',
-    appUnkonwError: 'App is unavailable',
+    welcome: 'Bem-vindo ao uso',
+    appUnavailable: 'Aplicativo indisponível',
+    appUnkonwError: 'Erro desconhecido no App',
   },
   chat: {
-    newChat: 'New chat',
-    newChatDefaultName: 'New conversation',
-    openingStatementTitle: 'Opening statement',
-    powerBy: 'Powered by',
+    newChat: 'Nova conversa',
+    newChatDefaultName: 'Nova conversa',
+    openingStatementTitle: 'Declaração de abertura',
+    powerBy: 'Desenvolvido por',
     prompt: 'Prompt',
-    privatePromptConfigTitle: 'Conversation settings',
-    publicPromptConfigTitle: 'Initial Prompt',
-    configStatusDes: 'Before start, you can modify conversation settings',
-    configDisabled:
-      'Previous session settings have been used for this session.',
-    startChat: 'Start Chat',
-    privacyPolicyLeft:
-      'Please read the ',
-    privacyPolicyMiddle:
-      'privacy policy',
-    privacyPolicyRight:
-      ' provided by the app developer.',
+    privatePromptConfigTitle: 'Configurações da conversa',
+    publicPromptConfigTitle: 'Prompt inicial',
+    configStatusDes: 'Antes de começar, você pode modificar as configurações da conversa',
+    configDisabled: 'As configurações da sessão anterior foram usadas para esta sessão.',
+    startChat: 'Iniciar conversa',
+    privacyPolicyLeft: 'Por favor, leia a ',
+    privacyPolicyMiddle: 'política de privacidade',
+    privacyPolicyRight: ' fornecida pelo desenvolvedor do aplicativo.',
   },
   errorMessage: {
-    valueOfVarRequired: 'Variables value can not be empty',
-    waitForResponse:
-      'Please wait for the response to the previous message to complete.',
+    valueOfVarRequired: 'O valor das variáveis não pode estar vazio',
+    waitForResponse: 'Por favor, aguarde a resposta da mensagem anterior ser concluída.',
   },
   variableTable: {
-    optional: 'Optional',
+    optional: 'Opcional',
   },
 }
 
